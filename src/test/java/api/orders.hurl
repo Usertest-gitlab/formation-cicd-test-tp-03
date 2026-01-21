@@ -1,4 +1,4 @@
-GET http://host.docker.internal:8080/orders
+GET http://host.docker.internal:8080/api/orders
 HTTP 200
 ```json
 [
