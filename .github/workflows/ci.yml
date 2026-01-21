@@ -101,5 +101,6 @@ jobs:
         with:
           target: 'http://localhost:8080/health'
           cmd_options: '-a'
-          fail_on_warn: false
-          open_report: fals
+          fail_action: 'WARN' 
+          allow_issue_writing: false  
+          artifact_name: 'zap_reports'
