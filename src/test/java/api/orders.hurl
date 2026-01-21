@@ -1,4 +1,5 @@
 GET http://host.docker.internal:8080/orders
+Accept: application/json
 
 HTTP 200
 [Asserts]
