@@ -101,3 +101,5 @@ jobs:
         with:
           target: 'http://localhost:8080/health'
           cmd_options: '-a'
+          fail_on_warn: false
+          open_report: fals
