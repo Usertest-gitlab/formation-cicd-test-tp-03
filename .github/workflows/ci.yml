@@ -65,7 +65,7 @@ jobs:
             --report-json /work/api-test-reports/report.json \ 
         
       - name: Upload API test reports
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: api-test-reports
           path: api-test-reports/
